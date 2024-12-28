@@ -2,8 +2,9 @@ package com.dsa.math;
 
 public class PrimeFactors {
     public static void main(String[] args) {
-        primeFactors(12);
-        primeFactors2(12);
+//        primeFactors(12);
+//        primeFactors2(12);
+        primeFactorsMoreEfficient(12);
     }
 
     private static void primeFactors(int number) {
@@ -34,6 +35,34 @@ public class PrimeFactors {
         if (number > 1) {
             System.out.println(" " + number);
         }
+    }
+
+    private static void primeFactorsMoreEfficient(int number) {
+        if (number <= 1) return;
+        while (number % 2 == 0) {
+            System.out.print(" " + 2);
+            number = number / 2;
+        }
+        while (number % 3 == 0) {
+            System.out.println(" " + 3);
+            number = number / 3;
+        }
+
+        for (int i = 5; i * i <= number; i = i + 6) {
+            while (number % i == 0) {
+                System.out.print(" " + i);
+                number = number / i;
+            }
+
+            while ((number % (i + 2) == 0)) {
+                System.out.print(" " + i + 2);
+                number = number / (i + 2);
+            }
+        }
+        if (number > 3) {
+            System.out.print(" " + number);
+        }
+
     }
 
     private static boolean isPrime(int number) {
