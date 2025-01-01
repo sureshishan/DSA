@@ -1,4 +1,7 @@
-package com.suresh.dp.strategy.problamaticsolution;
+package com.suresh.dp.strategy.problamaticsolution.inter.impl;
+
+import com.suresh.dp.strategy.problamaticsolution.inter.Flyable;
+import com.suresh.dp.strategy.problamaticsolution.inter.Quackable;
 
 public class MallardDuck implements Flyable, Quackable {
     @Override

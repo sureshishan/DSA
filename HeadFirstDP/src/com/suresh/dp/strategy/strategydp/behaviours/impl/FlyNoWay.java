@@ -1,4 +1,6 @@
-package com.suresh.dp.strategy.strategydp;
+package com.suresh.dp.strategy.strategydp.behaviours.impl;
+
+import com.suresh.dp.strategy.strategydp.behaviours.FlyingBehaviour;
 
 public class FlyNoWay implements FlyingBehaviour {
 

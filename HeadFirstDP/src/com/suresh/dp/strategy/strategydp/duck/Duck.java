@@ -1,4 +1,7 @@
-package com.suresh.dp.strategy.strategydp;
+package com.suresh.dp.strategy.strategydp.duck;
+
+import com.suresh.dp.strategy.strategydp.behaviours.FlyingBehaviour;
+import com.suresh.dp.strategy.strategydp.behaviours.QuackBehaviour;
 
 public abstract class Duck {
     private FlyingBehaviour flyingBehaviour;
