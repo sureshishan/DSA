@@ -1,4 +1,4 @@
-package com.interfaces.strategydp;
+package com.suresh.dp.strategy.strategydp;
 
 public class FlyWithWings implements FlyingBehaviour{
     @Override

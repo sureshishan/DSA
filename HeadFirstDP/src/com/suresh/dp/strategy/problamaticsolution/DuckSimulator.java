@@ -1,4 +1,4 @@
-package com.interfaces.problamaticsolution;
+package com.suresh.dp.strategy.problamaticsolution;
 
 public class DuckSimulator {
     public static void main(String[] args) {

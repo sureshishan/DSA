@@ -1,4 +1,4 @@
-package com.interfaces.problamaticsolution;
+package com.suresh.dp.strategy.problamaticsolution;
 
 public class RubberDuck implements Quackable {
     @Override
