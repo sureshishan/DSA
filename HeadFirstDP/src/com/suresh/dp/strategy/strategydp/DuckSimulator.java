@@ -1,4 +1,4 @@
-package com.suresh.dp.strategy.strategydp.driver;
+package com.suresh.dp.strategy.strategydp;
 
 import com.suresh.dp.strategy.strategydp.behaviours.impl.FlyNoWay;
 import com.suresh.dp.strategy.strategydp.duck.Duck;

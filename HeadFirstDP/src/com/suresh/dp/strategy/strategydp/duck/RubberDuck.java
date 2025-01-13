@@ -2,7 +2,6 @@ package com.suresh.dp.strategy.strategydp.duck;
 
 import com.suresh.dp.strategy.strategydp.behaviours.impl.FlyNoWay;
 import com.suresh.dp.strategy.strategydp.behaviours.impl.Squeak;
-import com.suresh.dp.strategy.strategydp.duck.Duck;
 
 public class RubberDuck extends Duck {
 

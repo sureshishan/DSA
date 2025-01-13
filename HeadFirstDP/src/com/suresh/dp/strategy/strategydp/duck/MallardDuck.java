@@ -2,11 +2,10 @@ package com.suresh.dp.strategy.strategydp.duck;
 
 import com.suresh.dp.strategy.strategydp.behaviours.impl.FlyWithWings;
 import com.suresh.dp.strategy.strategydp.behaviours.impl.Quack;
-import com.suresh.dp.strategy.strategydp.duck.Duck;
 
 public class MallardDuck extends Duck {
 
-    MallardDuck() {
+    public MallardDuck() {
         super(new FlyWithWings(), new Quack());
     }
 
