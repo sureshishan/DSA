@@ -1,4 +1,4 @@
-package com.dsa.airtribedsa.pointer2;
+package com.dsa.airtribedsa.twopointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
